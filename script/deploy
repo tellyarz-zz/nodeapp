@@ -2,5 +2,6 @@
 cd /var/nodeapp
 sudo git pull
 sudo npm install --production
-pm2 restart all
+export BUILD_ID=dontKillMePlease
+pm2 restart index.js
 exit
