@@ -1,6 +1,6 @@
 #! /bin/sh
 cd /var/nodeapp
-git pull
-npm install --production
+sudo git pull
+sudo npm install --production
 pm2 restart all
 exit
