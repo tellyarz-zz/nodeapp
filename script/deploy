@@ -2,6 +2,6 @@
 cd /var/nodeapp
 sudo git pull
 sudo npm install --production
-pm2 stop /var/nodeapp/index.js
+pm2 stop index
 pm2 start /var/nodeapp/index.js
 exit
