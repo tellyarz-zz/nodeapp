@@ -2,5 +2,4 @@
 cd /var/nodeapp
 sudo git pull
 sudo npm install --production
-pm2 restart 0
 exit
