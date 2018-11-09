@@ -5,6 +5,6 @@ app.get('/', (req, res) => {
     res.status(200).send('Hello World');
 });
 
-app.listen(process.env.PORT || 3000);
+if(!module.parent) app.listen(process.env.PORT || 3000);
 
 module.exports = app;
