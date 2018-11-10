@@ -1,5 +1,5 @@
 #! /bin/sh
-cd /var/nodeapp
+cd ~/var/nodeapp
 sudo git pull
 sudo npm install --production
 export BUILD_ID=dontKillMePlease
